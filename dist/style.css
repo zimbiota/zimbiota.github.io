@@ -1,0 +1,70 @@
+header{
+  width:fix;
+  heigth:fix;
+  padding:170px 170px 30px;
+  background: no-repeat top/100% url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  font-family: 'Abril Fatface', cursive;
+  color:#222;
+  font-size:30px;
+  }
+.name{
+  font-size:50px;
+}
+
+main{
+  font-family: 'Josefin sans', cursive;
+  color:#222;
+  font-size:15px;
+  margin:auto;
+  padding:10px 170px;
+  line-height:normal;
+  }
+.intro{
+  font-size:15px;
+}
+.capital{
+  text-transform:uppercase;
+}
+p,li{
+  font-size;10px;
+}
+h2{
+  margin-bottom:0px;
+}
+subtitle{
+  font-family: 'Merriweather', serif;
+  color:#222;
+  font-style:italic;
+  }
+
+blockquote {
+    margin-left:-20px;
+}
+blockquote p{
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  font-size:27px; 
+  background:grey;
+  width:450px;
+  height:80px;
+  padding-left:30px;
+  display:flex;
+  align-items:center;
+  }
+blockquote::before{
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  font-size:50px; 
+  background:grey;
+  padding-top:0px;
+  position:absolute;
+  } 
+section{
+  margin-top:40px;
+  }
+.box{
+  background:black;
+  height:5px;
+  width:fix;
+}
